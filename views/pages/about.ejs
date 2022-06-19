@@ -1,0 +1,25 @@
+<h1>hola amigos del romanticimo soy about</h1>
+
+<%- contentFor('cssPrivado') %>
+<section>
+    <div class="hero">
+        <div class="hero-content">
+            <h3>All about us</h2>
+            <p>we are web programing team</p>
+            <a href="/contact" class="btn btn-lg btn-primary"> Escribenos un mensaje</a>
+        </div>
+    </div>
+</section>
+
+<%- contentFor('body') %>
+<div class="jumbotron text-center justify-content-center">
+    <h1>Great team</h1>
+    <div class="row">
+        <% for(item of users) { %>
+            <div class="col-sm-3">
+                <h2><%= item.name %></h2>
+                <img src="<%= item.avatar %>" class="img-fluid" alt="">
+                <p><%= item.email %></p>
+            </div>
+    </div>
+</div>

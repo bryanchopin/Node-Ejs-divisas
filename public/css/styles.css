@@ -1,0 +1,102 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+
+  .hero {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0;
+    min-height: 650px;
+    position: relative;
+    text-align: center;
+  }
+  
+/* TIPO DE CAMBIO */
+.changeSell, .changeBuy{
+  background-color: #333;
+  color: #fff;
+  position: relative;
+  width: 12rem;
+  height: 5rem;
+  border-radius: 10px;
+  font-size: 50px;
+  margin: 50px auto;
+}
+.Buttoms{
+  color: #fff;
+  position: relative;
+  font-size: 30px;
+  margin: 10px auto;
+  background-color: #343A40;
+  text-decoration: none;
+}
+.Buttoms a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+/* PESOS DOLARES tOtales */
+.pesosT, .dolaresT{
+  background-color: rgb(230, 119, 147);
+  color: #fff;
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 50px;
+  margin: 50px auto;
+}
+
+/* TIPO DE CAMBIO */
+.CompraDollar, .VentaDollar{
+  margin: 10px auto;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 40px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+
+/* RELOG JS */
+#clock{
+    font-family: sans-serif;
+    font-size:60px;
+    text-shadow:0px 0px 50px #333;
+    color:#fff;
+}
+#clock span {
+    color:#888;
+    text-shadow:0px 0px 1px #333;
+    font-size:30px;
+    position:relative;
+    left:-10px;
+}
+#date {
+    letter-spacing:10px;
+    font-size:14px;
+    font-family:arial,sans-serif;
+    color:#fff;
+    margin-bottom: 20px;
+}
+ 
+  
+
+
+
+
+
+  /* FOOTER */
+  footer {
+    padding: 30px 0;
+    font-size: 14px;
+    color: #BBB;
+    background: #222;
+    text-align: center;
+  }
+  /* FOOTER */

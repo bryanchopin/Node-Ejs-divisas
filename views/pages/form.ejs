@@ -1,0 +1,33 @@
+<form action="/form" method="POST">
+
+    <h2 class="text-center">Ingrese sus datos</h2>
+    
+    <div class="form-floating mb-3">
+        <input name="nombre" type="Name" class="form-control" id="floatingInput" placeholder="Nombres">
+        <label for="floatingInput">Nombres</label>
+    </div>
+
+    <div class="form-floating mb-3">
+        <input name="apellidoP" type="lastName" class="form-control" id="floatingInput" placeholder="Apellido Paterno">
+        <label for="floatingInput">Apellido Paterno</label>
+    </div>
+
+    <div class="form-floating mb-3">
+        <input name="apellidoM" type="lastName" class="form-control" id="floatingInput" placeholder="Apellido Materno" >
+        <label for="floatingInput">Apellido Materno</label>
+    </div>
+
+    <div class="form-floating mb-3">
+        <input name="fechaN" type="date" class="form-control" id="floatingInput" placeholder="Fecha de nacimiento">
+        <label for="floatingInput">Fecha de nacimiento</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Enviar</button>
+
+    <div class="py-3 mb-3">
+        <label class="text-center" for="floatingInput"> Tu RFC es </label>
+        <input  class="form-control" type="text"  placeholder="RFC" aria-label=" input example" disabled>
+    </div>
+
+
+</form>

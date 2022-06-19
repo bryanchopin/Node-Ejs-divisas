@@ -1,0 +1,69 @@
+<section class="ModuloVenta">
+    <!-- encabezado -->
+    <div class="container">
+        <div class="row">
+            <div class="column-sm-12" style="margin: 30px auto;">
+                <h1>Compra y venta de dolares</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seccion de compra -->
+    <div class="container">
+        <div class="row">
+            <div class="CompraDollar">
+                <form action="/Mventa1" method="POST">
+                    <h2>Compra de dolares</h2>
+                    <div class="column-sm-4">
+                      <label for="exampleInputEmail1" class="form-label">Dolares a comprar</label>
+                      <input  name="DollaresAComprar" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+    
+                    <div class="column-sm-4">
+                        <button style="margin-top: 20px;" type="submit" class="btn btn-primary" >Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seccion de pesos y dolares -->
+    <div class="container">
+        <div class="row">
+            <div  class="col-sm-6">
+                <div class="pesosT">
+                    <h2> Total de Dolares </h2>
+                    <div> #</div>
+                </div>
+
+            </div>
+            <div class="col-sm-6">
+                <div class="dolaresT">
+                    <h2>Total de Pesos</h2>
+                    <div>#</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+     <!-- Seccion de venta -->
+     <div class="container">
+        <div class="row">
+            <div style="background-color: rgb(122, 241, 230);" class="VentaDollar">
+                <form action="/Mventa1" method="POST">
+                    <h2>Venta de dolares</h2>
+                    <div class="column-sm-4">
+                      <label for="exampleInputEmail1" class="form-label">Dolares a Vender</label>
+                      <input  name="dv" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+    
+                    <div class="column-sm-4">
+                        <button style="margin-top: 20px;" type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                  </form>
+            </div>
+        </div>    
+    </div>
+
+</section>
