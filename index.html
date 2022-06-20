@@ -1,33 +1,52 @@
-<%- contentFor ('cssPrivado') %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bry.house</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Brychxpin</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Venta y compra de dólares</a></li>
+                <li><a href="">Total de dolares</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="Sclock">
+            <div class="clockdate">
+                <div id="clock"></div>
+                <div id="date"></div>
+            </div>
+        </section>
+        <section id="Smain">
+            <div class="Item">
+                <div class="title">
+                    <h2>Venta de Dolar</h2>
+                </div>
+                <div class="Mdisplay"></div>
+            </div>
+            <div class="Item">
+                <div class="title">
+                    <h2>Compra de Dolar</h2>
+                </div>
+                <div class="Mdisplay"></div>
+            </div>
 
-<div class="container">
-    <section id="Sclock">
-        <div class="clockdate">
-            <div id="clock"></div>
-            <div id="date"></div>
-        </div>
-    </section>
-    <section id="Smain">
-        <div class="Item">
-            <div class="title">
-                <h2>VENTA DOLLAR</h2>
-            </div>
-            <div class="Mdisplay">
-                <h2>$<%= Valores.DollarVenta %></h2>
-            </div>
-        </div>
-        <div class="Item">
-            <div class="title">
-                <h2>COMPRA DOLLAR</h2>
-            </div>
-            <div class="Mdisplay">
-                <h2>$<%= Valores.DollarCompra %></h2>
-            </div>
-        </div>
-    </section>
-</div>
-
-<script>
+        </section>
+    </div>
+    <footer>
+        <h2>Brychxpin</h2>
+    </footer>
+    <script>
         function startTime() {
         var today = new Date();
         var hr = today.getHours();
@@ -42,7 +61,7 @@
         sec = checkTime(sec);
         var temp = "25.14 C"
         document.getElementById("clock").innerHTML = hr + ":" + min + ":" + sec + " " + ap;
-
+    
         var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
         var days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
         var curWeekDay = days[today.getDay()];
@@ -62,4 +81,6 @@
     }
 
     startTime();
-</script>
+    </script>
+</body>
+</html>
